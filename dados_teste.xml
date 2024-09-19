@@ -1,0 +1,51 @@
+<procedimentos>
+    <procedimento id="1" nome="Adicao">
+        <caso id="1">
+            <valor1>5</valor1>
+            <valor2>3</valor2>
+            <resultado_esperado>8</resultado_esperado>
+        </caso>
+        <caso id="2">
+            <valor1>-2</valor1>
+            <valor2>7</valor2>
+            <resultado_esperado>5</resultado_esperado>
+        </caso>
+        <!-- Outros casos de teste -->
+    </procedimento>
+
+    <procedimento id="2" nome="Subtracao">
+        <caso id="1">
+            <valor1>10</valor1>
+            <valor2>4</valor2>
+            <resultado_esperado>6</resultado_esperado>
+        </caso>
+        <!-- Outros casos de teste -->
+    </procedimento>
+
+    <procedimento id="3" nome="Multiplicacao">
+        <caso id="1">
+            <valor1>4</valor1>
+            <valor2>5</valor2>
+            <resultado_esperado>20</resultado_esperado>
+        </caso>
+        <!-- Outros casos de teste -->
+    </procedimento>
+
+    <procedimento id="4" nome="Divisao">
+        <caso id="1">
+            <valor1>20</valor1>
+            <valor2>4</valor2>
+            <resultado_esperado>5</resultado_esperado>
+        </caso>
+        <!-- Outros casos de teste -->
+    </procedimento>
+
+    <procedimento id="5" nome="Exponenciacao">
+        <caso id="1">
+            <valor1>2</valor1>
+            <valor2>3</valor2>
+            <resultado_esperado>8</resultado_esperado>
+        </caso>
+        <!-- Outros casos de teste -->
+    </procedimento>
+</procedimentos>
