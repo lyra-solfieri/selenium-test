@@ -4,7 +4,9 @@ import time
 import xml.etree.ElementTree as ET
 
 class Calculadora:
-
+    
+    ARQUIVO_XML  = 'dados_testes.xml'
+    
     def __init__(self):
         self.driver = webdriver.Chrome()
         self.driver.get("https://www.calculadoraonline.com.br/basica")
@@ -13,8 +15,8 @@ class Calculadora:
     def finalizar_driver(self):
         self.driver.quit()
         
-    def _carregar_dados_xml(self, arquivo_xml):
-        tree = ET.parse(arquivo_xml)
+    def _carregar_dados_xml(self):
+        tree = ET.parse(self.ARQUIVO_XML)
         root = tree.getroot()
         procedimentos = {}
         for procedimento in root.findall('procedimento'):

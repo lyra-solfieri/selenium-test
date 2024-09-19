@@ -18,13 +18,18 @@ class TestCalculadora(unittest.TestCase):
 
     # Teste TDD para multiplicação(irá falhar)
     def test_multiplicacao(self):
-        resultado = self.calc.multiplicar(3, 2)
+        resultado = self.calc.multiplicar(3, 3)
         self.assertEqual(resultado, 9)
 
     # Teste TDD para divisão
     def test_divisao(self):
         resultado = self.calc.dividir(8, 2)
         self.assertEqual(resultado, 4)
+        
+    # TDD para potencia
+    def test_potencia(self):
+        resultado = self.calc.potencia(2,2)
+        self.assertEqual(resultado,4)
 
     # Teste para divisão por zero
     def test_divisao_por_zero(self):

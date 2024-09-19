@@ -14,7 +14,7 @@ class TestCalculadora(unittest.TestCase):
         cls.calc.finalizar_driver()
             
     def test_calculadora(self):
-        procedimentos = self.calc._carregar_dados_xml('dados_testes.xml')
+        procedimentos = self.calc._carregar_dados_xml()
         
         for nome_procedimento, casos in procedimentos.items():
             resultados = self.calc.executar_procedimento(nome_procedimento, casos)

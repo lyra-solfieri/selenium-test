@@ -13,5 +13,5 @@ class TDD_Calculadora:
             raise ZeroDivisionError("Divisão por zero não é permitida")
         return a / b
     
-    def potencia(self,a,b):
+    def potencia(self, a, b):
         return a ** b
