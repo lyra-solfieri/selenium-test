@@ -1,8 +1,7 @@
-import teste_calculadora
-
+import executar_testes
 
 def main():
-    pass
+    executar_testes()
 
-if __name__ == '__main__':
-    pass
+if __name__ == "__main__":
+    main()
